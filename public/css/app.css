@@ -1,0 +1,38 @@
+.titulo
+{
+    color: #000;
+}
+
+.main{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.add{
+    margin: 20px auto;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .form-add{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1400px){
+    .form-add{
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 3500px){
+    .form-add{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
